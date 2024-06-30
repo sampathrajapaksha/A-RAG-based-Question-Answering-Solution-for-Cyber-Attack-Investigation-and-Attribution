@@ -1,0 +1,50 @@
+﻿Question,Ground Truth
+Who developed and operated MagicRAT?,"The Lazarus APT group, which is believed to be a North Korean state-sponsored actor."
+What is the relationship between MagicRAT and TigerRAT?,"MagicRAT has links to TigerRAT, another RAT attributed to Lazarus, and both were found using the same C2 infrastructure."
+What are some ways to detect and block threats like MagicRAT and TigerRAT?,"Using Cisco Secure Endpoint, Cisco Secure Web Appliance, Cisco Secure Email, Cisco Secure Firewall, Cisco Secure Malware Analytics, and Cisco Duo for multi-factor authentication."
+What new capability was discovered in the latest variant of TigerRAT?,"The latest variant includes a ""USB dump"" capability for enumerating and exfiltrating files with specific extensions."
+What type of malware is VSingle?,VSingle is a custom-developed malware implant attributed to the Lazarus Group.
+What activities were observed in the abuse of Microsoft Exchange Server?,"Creation of web shells, remote code execution, and reconnaissance for endpoint security solutions."
+Who is linked to the 'Sharpshooter' campaign?,North Korea's Lazarus threat actor
+What did the Rising Sun backdoor evolve from?,"Duuzer, used by Lazarus"
+Since when were the new variants of the Rising Sun backdoor used?,Since at least 2016
+When did the Sharpshooter C2 framework activity  begin?,Since at least September 2017
+When did the Viasat incident occur?,24 February.
+What was the primary target of the Viasat cyber-attack?,The Ukrainian military.
+What action has the UK taken against the GRU?,Sanctioned the GRU and frozen bank assets and personal net worth of oligarchs.
+What is the primary malware distributed in the FakeSG campaign?,NetSupport RAT.
+Which protocol does the decoy installer use to retrieve the malicious file?,WebDav HTTP protocol.
+What are some domains used in the FakeSG campaign?,google-analytiks[.]com and updateadobeflash[.]website.
+How does the new FakeSG campaign deceive victims?,By using compromised WordPress sites to display fake browser update pages.
+How did Red Stinger typically deliver their malware to victims?,"Red Stinger typically delivered their malware through MSI files downloaded from URLs like hxxp://91.234.33.185 and hxxp://176.114.9.192, embedding malicious scripts and DLLs."
+What notable victim categories did Red Stinger target?,"Red Stinger targeted military, transportation, critical infrastructure entities, and individuals involved in the Eastern Ukraine referendums, aiming to exfiltrate sensitive data."
+What was the geographical focus of Red Stinger's operations?,"Red Stinger primarily focused on entities aligned with Ukraine and Russia, targeting regions like Donetsk, Luhansk, and Vinnitsya, reflecting their strategic interest in geopolitical conflicts and elections."
+"What is INDUSTROYER.V2, and why is it significant in the cybersecurity community?","INDUSTROYER.V2 is a variant of the original INDUSTROYER malware, specifically designed for attacking operational technology (OT) systems using the IEC 60870-5-104 protocol. It's significant because it marks a rare instance of repurposed OT-targeting malware, highlighting the adaptability and persistent threat of such tools in industrial environments."
+What are some similarities and differences between INDUSTROYER.V2 and its predecessor?,"Both versions share code overlaps in key functionalities like ASDU frame creation and APDU message sending. However, INDUSTROYER.V2 differs by focusing solely on the IEC 60870-5-104 protocol and implementing stricter process termination and file renaming capabilities. These adaptations indicate a refinement towards more targeted attacks on specific OT infrastructure components."
+Which malware can decrypt Rijndael symmetric encryption strings?,Agent Tesla and DarkTortilla are known for decrypting strings encrypted with Rijndael.
+How do adversaries abuse system utilities like certutil for obfuscation?,"They leverage certutil to download and decode base64-encoded files, masking malicious activities."
+Which malware variant uses a rotating XOR cipher to decode shellcode?,BADFLICK utilizes a rotating XOR cipher for shellcode decryption.
+How did Mandiant identify the threat actors involved in compromising Pulse Secure devices?,Mandiant identified the threat actors through detailed investigations and analysis of malware families and attack techniques.
+What are some challenges faced by network defenders in attributing cyber attacks to specific threat actors?,"Network defenders face challenges such as altered or deleted forensic evidence, complex tradecraft, and the use of similar exploits by multiple threat groups."
+What steps did Pulse Secure and its parent company take in response to cyber attacks?,"Pulse Secure released patches, security advisories, and knowledge articles to mitigate vulnerabilities and assist affected customers."
+How did the threat actors maintain persistence in the compromised systems?,The threat actors maintained persistence by modifying core system files during the upgrade process of Pulse Secure appliances.
+Who has attributed the Sandworm actor to the Russian GRU?,"The United Kingdom's NCSC, CISA, NSA, and FBI have attributed the Sandworm actor to the Russian GRU."
+How does Cyclops Blink differ from VPNFilter?,Cyclops Blink is a more advanced and modular malware framework compared to VPNFilter.
+When did Sandworm start deploying Cyclops Blink?,Sandworm began deploying Cyclops Blink at least since June 2019.
+What encryption method does Cyclops Blink use for C2 communications?,Cyclops Blink uses AES-256-CBC encryption under TLS for its command and control (C2) communications.
+How should affected organizations respond to Cyclops Blink infections?,"Affected organizations should follow mitigation advice, update firmware, and remove the malware using tools provided by WatchGuard."
+"What is the Sofacy Group, and what are its other known aliases?","The Sofacy Group, also known as APT28, Sandworm, X-Agent, Pawn Storm, Fancy Bear, and Sednit, is a cyber threat group operating since at least 2007."
+What actions did the U.S. Department of Justice take to disrupt the VPNFilter botnet?,"The Department of Justice obtained court orders to seize a domain used in the botnet's command-and-control infrastructure, redirecting infected devices to an FBI-controlled server."
+What is the purpose of seizing the domain related to the VPNFilter botnet?,"Seizing the domain helps identify infected devices by capturing their IP addresses, aiding in remediation efforts worldwide."
+What is the MiniDuke malware known for?,MiniDuke is known for its use of a sophisticated Adobe Reader 0-day exploit (CVE-2013-0640) and advanced social engineering tactics.
+How does MiniDuke initially compromise systems?,"It exploits malicious PDF documents that bypass Adobe Reader sandbox protections, delivering a small, customized downloader to the victim's system."
+What types of files does MiniDuke use to transmit backdoors?,It uses GIF files disguised as innocuous images to fetch and deploy larger backdoors onto infected machines.
+How many unique victims of MiniDuke were identified globally?,"MiniDuke was observed to have infected 59 unique victims across 23 countries, including the United States, United Kingdom, and several European nations."
+How can organizations protect against MiniDuke?,"Organizations should update Adobe Reader and other software, educate users against phishing attacks, and deploy advanced threat detection systems to mitigate MiniDuke's threats."
+What is notable about DarkRace ransomware's targeting strategy?,"DarkRace targets Windows systems primarily in Europe, particularly in the Information and Communications Technology (ICT) sectors."
+How did LockBit ransomware dominate the ransomware landscape in 2022?,"LockBit was identified as the biggest global ransomware threat in 2022, extorting approximately $91 million from US organizations through around 1,700 attacks."
+Which ransomware group is behind the attacks on MOVEit Transfer instances?,"The Lace Tempest group, also associated with the Cl0p ransomware operations."
+When did the exploitation of CVE-2023-34362 begin?,"Exploitation began on May 27th, 2023, during the US Memorial Day holiday."
+What sectors were notably affected by the MOVEit Transfer vulnerability?,"Healthcare, education, US federal and state government, and financial institutions."
+What is CSP designed to protect against?,CSP is designed to guard against Cross-Site Scripting (XSS) attacks by controlling which domains can be interacted with as part of a web page.
+Why is CSP important in web security?,"CSP helps restrict which domains can receive data from a website, thereby reducing the risk of data exfiltration and unauthorized script execution."
